@@ -11,6 +11,7 @@ button1.addEventListener('click', function(){
     const sectionB = document.querySelector('#b p');
 
     const sectionC = document.querySelector('#c p');
+    // const sectionC = document.getElementById('c');
 
 
     sectionASatu.style.backgroundColor = 'orange';
@@ -45,7 +46,7 @@ button3.addEventListener('click', function(){
 
     const sectionB = document.querySelector('#b p');
 
-    const sectionC = document.querySelector('#c p');
+    const sectionC = document.getElementById('c');
 
 
     sectionASatu.style.color = 'red';
@@ -68,7 +69,9 @@ const button4 = document.getElementById('buttonEmpat')
 button4.addEventListener('click', function(){
 
     // const cariP = document.querySelectorAll('.p');
-    // const cariPDiganti = document.querySelector( 'p')
+    // const cariPDiganti = document.querySelector('p')
+    // const a = document.getElementById('c')
+    // a.style.fontFamily = 'calibri'
     // cariP.style.fontSize='30px'
 
     // const satu = document.querySelector('p');
@@ -88,8 +91,9 @@ button4.addEventListener('click', function(){
 
     const sectionB = document.querySelector('#b p');
 
-    const sectionC = document.querySelector('#c p');
-
+    // const sectionC = document.querySelector('#c p');
+    const sectionC = document.getElementById('c')
+    // a.style.fontFamily = 'calibri'
 
     sectionASatu.style.fontSize = '20px';
     sectionADua.style.fontSize = '20px';
@@ -188,7 +192,7 @@ button10.addEventListener('click',function(){
       const linkText = document.createTextNode("link github medita");
       a.appendChild(linkText);
       a.title = "my title text";
-      a.href = "https://github.com/meditakurnia/dojobox";
+      a.href = "https://github.com/meditakurnia";
       letak.appendChild(a);
     
 })
